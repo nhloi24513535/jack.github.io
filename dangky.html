@@ -1,0 +1,169 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<title>Thế giới hoa</title>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	</head>
+	<body >
+		<table width="900" border="0" align="center" bgcolor="#FFEBCD" cellspacing="0">
+			<tr height="160" background="images/banner-hoa.jpg">
+				<td colspan="3"></td>
+			</tr>
+			
+			<tr height="20" bgcolor="#00AA00">			
+				<td >				
+					<a  href="trangchu.html"><FONT face="Times New Roman" size="4" color = "#FFFFFF"><b>Trang Chủ</b></FONT></a> &nbsp;&nbsp;&nbsp;&nbsp;
+					<FONT face="Times New Roman" size="4" color = "#FFFFFF"><b>Liên Hệ </b></FONT> 
+					</td>
+				<td colspan="2">
+					<FONT face="Times New Roman" size="4" color = "#FFFFFF">
+					<marquee onmouseover="this.stop();" onmouseout="this.start();" behavior="scroll" direction="left" scrollamount=3>
+						Hoa tươi Long Xuyên kính chào quý khách, nhận đặt hoa cưới, sinh nhật, chúc mừng, Chúng tôi đem tận nơi trong nội ô Long Xuyên
+					</marquee>
+					</FONT>
+	</FONT>
+
+					
+				</td>
+			</tr>
+			
+			<tr valign="top">
+				<!-- Cột trái -->
+				<td width="22%" bgcolor="#FFFFCC" >
+					<h3>Hoa Tươi Online</h3>
+					<ul>
+						<li>Ý nghĩa các loài hoa</li>
+						<li>Hoa Cưới</li>
+						<li>Hoa Chúc Mừng</li>
+						<li>Hoa Tình Yêu</li>
+						<li>Hoa Cưới</li>
+						<li><a href="videohoa.html">Video các loài hoa</a></li>
+					</ul>
+					
+					<h3>Hỗ Trợ Khách Hàng</h3>
+					<ul>
+						<li>Đăng nhập</li>
+						<li><a href="dangky.html" >Đăng ký</a></li>
+						<li>Góp ý</li>						
+					</ul>
+					
+					<h3>Giải trí</h3>
+					<ul>
+						<li>Xem hài</li>
+						<li>Xem bói</li>
+						<li>Chơi game</li>						
+					</ul>
+					<object width="195" height="60">
+						<embed src="flash/green.swf" width="195" height="60" 					
+						</embed>
+					</object>
+				</td>
+				
+				<!-- Cột giữa -->
+				<td width="56%" align="center">					
+					<form action="#" method="post">
+						<table border="0" align="center" width="75%">
+							<tr>
+								<th colspan="2">THÔNG TIN ĐĂNG KÝ</th>
+							</tr>
+							<tr>
+								<td width="30%">Họ và tên:</td>
+								<td width="70%"><input type="text" name="txtHoTen" /></td>
+							</tr>
+							<tr>
+								<td>Ngày sinh:</td>
+								<td>
+									<select name="cboNgay">
+										<option value="0">Ngày</option>
+										<script type="text/javascript">
+											for(var i = 1; i <= 31; i++)
+											{
+												document.write("<option value='" + i + "'>" + i + "</option>");
+											}
+										</script>
+									</select>
+					
+									<select name="cboThang">
+										<option value="0">Tháng</option>
+										<script type="text/javascript">
+											for(var i = 1; i <= 12; i++)
+											{
+												document.write("<option value='" + i + "'>" + i + "</option>");
+											}
+										</script>
+									</select>
+									
+									<select name="cboNam">
+										<option value="0">Năm</option>
+										<script type="text/javascript">
+											var today = new Date();
+											var nam = today.getFullYear();
+											
+											for(var i = 1970; i <= nam; i++)
+											{
+												document.write("<option value='" + i + "'>" + i + "</option>");
+											}
+										</script>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td>Giới tính:</td>
+								<td>
+									<input type="radio" checked = "true" name="chkGioiTinh" value="0" />Nam
+									<input type="radio" name="chkGioiTinh" value="1" />Nữ
+								</td>
+							</tr>
+							<tr>
+								<td>Nghề nghiệp:</td>
+								<td>
+									<select name="cboNgheNghiep">
+										<option value="0">--Chọn--</option>
+										<option value="1">Kỹ sư</option>
+										<option value="2">Bác sĩ</option>
+										<option value="3">Giáo viên</option>
+										<option value="4">Sinh viên</option>
+										<option value="5">Nghề khác</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td>Hoa yêu thích:</td>
+								<td>
+									<input type="checkbox" checked = "true" name="hoayt" value="1" /> Hoa Lan
+									<input type="checkbox" name="hoayt" value="2" /> Hoa Hồng <br>
+									<input type="checkbox" name="hoayt" value="3" /> Hoa TuLip 
+									<input type="checkbox" name="hoayt" value="4" /> Hoa Cúc<br>
+									<input type="checkbox" name="hoayt" value="5" /> Hoa Ly
+									<input type="checkbox" name="hoayt" value="6" /> Hoa Khác
+									
+								</td>
+							</tr>
+							<tr>
+								<td>Ghi chú:</td>
+								<td><textarea name="txtGhiChu"></textarea></td>
+							</tr>
+							<tr>
+								<td colspan="2" align="center">
+									<input type="submit" value="Đăng ký" />
+									<input type="reset" value="Xóa làm lại" />
+								</td>
+							</tr>
+						</table>
+					</form>			
+					
+				</td>
+				
+				<!-- Cột phải -->
+				<td width="22%" align="center" bgcolor="#FFFFCC" >					
+					<a href="http://kenh14.vn" target="_blank"><img src="images/hoa8.jpg" width="185" /></a>
+				</td>
+			</tr>
+			<tr height="50" bgcolor="#1E90FF">
+				<td align="center" colspan="3">
+					Bản quyền &copy; Công Ty Hoa Tươi Long Xuyên - Email: <a href="mailto:hoatuoilongxuyen@gmail.com">hoatuoilongxuyen@gmail.com</a>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
